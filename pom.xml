@@ -7,9 +7,11 @@
     <groupId>org.example</groupId>
     <artifactId>demo-project</artifactId>
     <version>2.3-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
-   <!-- <modules>
+   <!--
+    <packaging>pom</packaging>
+     <modules>
         <module>agent-installer</module>
         &lt;!&ndash;<module>demo-jar</module>&ndash;&gt;
     </modules>-->
