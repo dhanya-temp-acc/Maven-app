@@ -5,31 +5,23 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>Maven-plugins</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>demo-project</artifactId>
+    <version>2.3-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+   <!-- <modules>
+        <module>agent-installer</module>
+        &lt;!&ndash;<module>demo-jar</module>&ndash;&gt;
+    </modules>-->
 
     <properties>
-        <!-- Java version used for compilation -->
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
-    <build>
-        <plugins>
-            <!-- Java compiler plugin -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version>
-            </plugin>
-
-            <!-- Test execution plugin -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.5</version>
-            </plugin>
-        </plugins>
-
-    </build>
-
+    <distributionManagement>
+        <repository>
+            <id>l3c-auto-88-10.162.120.164-repo22</id>
+            <url>http://10.162.120.164:8081/repository/DummyRepo/</url>
+        </repository>
+    </distributionManagement>
 </project>
