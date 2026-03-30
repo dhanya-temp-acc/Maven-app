@@ -17,13 +17,13 @@
     </modules>-->
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
     </properties>
     <distributionManagement>
         <repository>
-            <id>l3c-auto-88-10.162.120.164-repo22</id>
-            <url>http://10.162.120.164:8081/repository/DummyRepo/</url>
+            <id>l3c-auto11-10.49.29.133-repo</id>
+            <url>http://10.49.29.133:8081/repository/GuestRepo/</url>
         </repository>
     </distributionManagement>
 </project>
